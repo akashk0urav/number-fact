@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+body{
+  background-color: rgb(28, 27, 34);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section{
+  width: 100%;
+}
+.container{
+  width: 90%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+form,.number-fact{
+  width: 100%;
+  background-color: rgb(42, 41, 42);
+  padding: 20px;
+  border-radius: 8px;
+}
+input[type="number"]{
+  width: 70%;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: #3a3a3b;
+  font-size: 24px;
+  color: aliceblue;
+  padding-left: 10px;
+}
+input[type="number"]::placeholder{
+  font-size: 24px;
+  font-family: "Nunito";
+  font-weight: 400;
+}
+button{
+  display: inline-block;
+  width: 25%;
+  font-size: 24px;
+  height: 40px;
+  background-color:#3a3a3b;
+  color: aliceblue;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.number-fact{
+  margin-top: 20px;
+  height: auto;
+  font-size: 20px;
+}
+@media only screen and (max-width: 678px){
+  form button{
+    font-size: 18px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.float-text {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: fit-content;
+  background-color: #192227;
+  color: whitesmoke;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+  cursor: pointer;
+  border: 1px solid white;
+}
+.float-card-info {
+  width: 300px;
+  position: absolute;
+  background-color: #263238;
+  border: 2px solid white;
+  overflow: hidden;
+  bottom: 5px;
+  right: -100%;
+  padding: 30px;
+  border-radius: 8px;
+  transition: 0.5s ease-in-out right;
+}
+.float-card-info p {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.gg-youtube {
+  --ggs: 1.5;
+}
+.float-card-info .icons {
+  width: 120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.float-card-info .icons a {
+  display: inline-block;
+  cursor: pointer;
+  color: whitesmoke;
+}
+.float-card-info .icons a:hover {
+  color: rgb(127, 127, 129);
+}
+.float-card-info .link {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Montserrat";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+.gg-close-r {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.float-card-info.active {
+  right: 5px;
+  bottom: 5px;
+}
+
+.float-card-info .hire {
+  background-color: #181e22;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  border-radius: 6px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
